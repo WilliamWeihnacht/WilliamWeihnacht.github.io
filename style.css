@@ -31,6 +31,10 @@ section:hover {
 	color: white;
 }
 
+figcaption {
+	color: #a3a3c2;
+}
+
 a {
 	color: gold;
 }

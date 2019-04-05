@@ -1,9 +1,5 @@
 'use strict';
 
-function startAnimation() {
-	setInterval("animateMe()",5000);
-}
-
 function animateMe() {
 	const img = document.getElementById("imgMe");
 	let curImage = img.getAttribute("src");
@@ -17,3 +13,5 @@ function animateMe() {
 	}
 	img.setAttribute("src",curImage);
 }
+
+document.getElementById("imgMe").addEventListener("click",animateMe);
