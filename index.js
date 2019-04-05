@@ -1,5 +1,6 @@
 'use strict';
 
+//animate images currently not working on live site
 function animateMe() {
 	const img = document.getElementById("imgMe");
 	let curImage = img.getAttribute("src");
@@ -14,4 +15,4 @@ function animateMe() {
 	img.setAttribute("src",curImage);
 }
 
-document.getElementById("imgMe").addEventListener("click",animateMe);
+//document.getElementById("imgMe").addEventListener("click",animateMe);
