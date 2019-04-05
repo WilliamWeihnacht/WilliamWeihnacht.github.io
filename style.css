@@ -7,21 +7,32 @@ h1 {
 	border-radius: 25px;
 }
 
-h3 {
+h3 a {
 	text-align: center;
+	color: gold;
 }
 
 body {
-	background-image: url("images/water.png");
+	background-image: url("images/testbg2.png");
 	margin-left: 250px;
 	margin-right: 250px;
+	background-repeat: repeat;
 }
 
 section {
 	border: 1px solid black;
 	border-radius: 25px;
-	display: inline-block;
-	padding: 0px;
+	padding: 3px;
+	margin: 10px;
+}
+
+section:hover {
+	background-color: black;
+	color: white;
+}
+
+a {
+	color: gold;
 }
 
 img {
