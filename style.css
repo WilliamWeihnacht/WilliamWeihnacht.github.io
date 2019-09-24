@@ -1,10 +1,13 @@
 h1 {
 	text-align: center;
-	border-style: double;
-	border-width: 3px;
 	margin-right: 25%;
 	margin-left: 25%;
+	text-decoration: underline;
+	/*
+	border-style: double;
+	border-width: 3px;
 	border-radius: 25px;
+	*/
 }
 
 h3 a {
@@ -13,7 +16,7 @@ h3 a {
 }
 
 body {
-	background-image: url("images/testbg2.png");
+	background-image: url("images/backgrounds/testbg2.png");
 	margin-left: 250px;
 	margin-right: 250px;
 	background-repeat: repeat;
@@ -31,19 +34,23 @@ section:hover {
 	color: white;
 }
 
-figcaption {
-	color: #a3a3c2;
-}
-
-a {
-	color: gold;
-}
-
-img {
+img.portrait {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	border: 3px black solid;
+}
+
+.icon {
+	padding-left: 30px;
+	padding-right: 30px;
+	text-decoration: none;
+}
+
+#iconText {
+	padding-left: 53px;
+	padding-right: 53px;
+	text-align: center;
 }
 
 div {
@@ -51,8 +58,12 @@ div {
 	text-align: center;
 	padding: 10px;
 	padding-bottom: 20px;
-	margin: auto;
-	border: 3px solid;
+	margin-bottom: 50px
+}
+
+
+#rounded {
+	border: 1px solid;
 	border-bottom-left-radius: 25px;
 	border-bottom-right-radius: 25px;
 }
