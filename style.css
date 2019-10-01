@@ -17,8 +17,10 @@ h3 a {
 
 body {
 	background-image: url("images/backgrounds/testbg2.png");
-	margin-left: 250px;
-	margin-right: 250px;
+	/*margin-left: 250px;
+	margin-right: 250px;*/
+	margin: auto;
+	width: 80%;
 	background-repeat: repeat;
 }
 
